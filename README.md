@@ -6,18 +6,18 @@
 チャート作成の事例:
 
 ### Plotly グラフ
-![ダミー円グラフ](assert/dummy_pie_chart.png)
-![浜松降水量グラフ](assert/precipitation_hamamatsu_202505.png)
+<img src="assert/dummy_pie_chart.png" alt="ダミー円グラフ" width="40%">
+<img src="assert/precipitation_hamamatsu_202505.png" alt="浜松降水量グラフ" width="40%">
 
 ### PlantUML 図
-![フロー図](assert/flow_diagram.png)
-![洗濯機シーケンス図](assert/washing_machine_sequence.png)
+<img src="assert/flow_diagram.png" alt="フロー図" width="30%">
+<img src="assert/washing_machine_sequence.png" alt="洗濯機シーケンス図" width="30%">
 
 ### Mermaid チャート
-![Mermaid チャート](assert/mermaid.png)
+<img src="assert/mermaid.png" alt="Mermaid チャート" width="40%">
 
 ### その他
-![Reder](assert/reder.jpg)
+<img src="assert/reder.jpg" alt="Reder" width="40%">
 
 ## 機能
 
