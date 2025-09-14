@@ -37,6 +37,7 @@
 
 ## 使い方
 `mcp_setting.json` に記述します。
+```
 {
   "mcpServers": {
     "mcp-diagram-maker": {
@@ -54,3 +55,4 @@
     }
   }
 }
+```
