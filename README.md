@@ -48,7 +48,7 @@
       "command": "uv",
       "args": [
         "--directory",
-        "C:/Users/ooa42/Documents/Python_venv/mcp-diagram-maker",
+        "path_to/mcp-diagram-maker",
         "run",
         "mcp-diagram-maker"
       ]
