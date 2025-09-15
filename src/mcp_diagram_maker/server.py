@@ -185,7 +185,17 @@ async def list_tools() -> list[Tool]:
         ),
         Tool(
             name="create_plantuml_diagram",
-            description="PlantUMLを使ってフロー図などを作成し、指定された形式で出力します。PlantUMLソースまたは中間ファイルパスを受け取ります。ファイルの受け渡しは絶対パスを使用する。",
+            description=(
+                "PlantUMLを使ってフロー図などを作成し、指定された形式で出力します。"
+                "PlantUMLソースまたは中間ファイルパスを受け取ります。"
+                "ファイルの受け渡しは絶対パスを使用する。"
+                "\n\n重要なコーディングルール（必読）:"
+                "\n - rectangle 内の説明はすべてラベル文字列内に改行で入れる形式とすること。"
+                "\n   例: rectangle \"タイトル\\n- 説明行1\\n- 説明行2\" as ID #FFF2CC"
+                "\n - '識別子 : テキスト' のような形式（例: ID : 説明）は避けること。"
+                "\n   PlantUML の一部の図タイプや古いバージョンで構文エラーを引き起こす可能性があります。"
+                "\n - 必要に応じて color 指定は各要素の末尾に '#RRGGBB' で付与すること。"
+            ),
             inputSchema={
                 "type": "object",
                 "properties": {
